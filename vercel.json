@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-        { "src": "setup.py", "use": "@now/python" }
+        { "src": "setup.py", "use": "@vercel/python" }
     ],
     "routes": [
         { "src": "/(.*)", "dest": "setup.py" }
